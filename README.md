@@ -8,7 +8,7 @@ The project can simulate a variety of landscapes such as deserts, mountain range
 ---
 ## 🎥 Demo Video
 
-[![Watch the demo](Terrain_Demo.mp4)]
+[▶ Watch the demo](./Terrain_Demo.mp4)
 ---
 
 ## ✨ Features

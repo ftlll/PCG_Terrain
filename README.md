@@ -1,10 +1,14 @@
 # Procedural Terrain Generation with Perlin Noise
 
-This project demonstrates procedural generation of synthetic terrain in **Unity**.  
+This project demonstrates procedural generation of synthetic terrain in **Unity** with **C#** script.  
 It combines **multi-band Perlin noise** for realistic height variation, **texture mapping** for color, **dynamic terrain streaming** as the camera moves, and **simple procedural vegetation** to enhance the environment.
 
 The project can simulate a variety of landscapes such as deserts, mountain ranges, alien worlds, underwater seascapes, or islands.
 
+---
+## 🎥 Demo Video
+
+[![Watch the demo](./Terrain_Demo.mp4)
 ---
 
 ## ✨ Features
@@ -25,22 +29,18 @@ The project can simulate a variety of landscapes such as deserts, mountain range
   - Height-based and noise-based color variations for more natural appearance.
 
 - **Simple Vegetation**
-  - Places very simple plants (≤ 6 Unity primitives per plant) randomly across the terrain.
+  - Placed very simple plants (≤ 6 Unity primitives per plant) randomly across the terrain.
   - Plant density, color, and size can vary by terrain features (e.g., more vegetation in valleys).
 
 - **Camera-Driven Streaming**
   - Dynamically generates new terrain chunks as the camera moves close to existing edges.
-  - Optionally removes distant terrain chunks to save memory (optional extension).
-
----
-
-## 📚 Graduate-Level Extensions (Optional)
+  - removes distant terrain chunks to save memory.
 
 - **Procedural Rock/Rubble Piles**
   - Uses scripts to spawn simple rock shapes (squashed spheres/cylinders) above the ground.
   - Applies Unity **Rigidbody** physics to let them fall naturally into piles at specific locations.
 
-- **First-Person Mode**
+- **First-Person and Thrid-Person Mode**
   - Enables player to move across terrain using **WASD controls**.
   - Allows immersive exploration of generated worlds.
 
@@ -50,12 +50,5 @@ The project can simulate a variety of landscapes such as deserts, mountain range
 
 ### Prerequisites
 - [Unity 2021+](https://unity.com/download) (recommended: latest LTS version)
-- Basic understanding of C# scripting in Unity
-- Perlin noise familiarity (Unity’s `Mathf.PerlinNoise`)
 
 ---
-
-### Installation & Setup
-1. **Clone or Download the Project**
-   ```bash
-   git clone https://github.com/yourusername/procedural-terrain.git

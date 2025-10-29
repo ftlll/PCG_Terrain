@@ -6,12 +6,12 @@ It combines **multi-band Perlin noise** for realistic height variation, **textur
 The project can simulate a variety of landscapes such as deserts, mountain ranges, alien worlds, underwater seascapes, or islands.
 
 ---
-## 🎥 Demo Video
+## Demo Video
 
 [![Watch the demo](https://img.youtube.com/vi/fLyK2lv91hg/0.jpg)](https://www.youtube.com/watch?v=fLyK2lv91hg)
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-band Perlin Noise Terrain**
   - Uses at least **three different Perlin noise bands** (low, medium, and high frequency) to create realistic terrain with fractal-like variations.
@@ -43,12 +43,5 @@ The project can simulate a variety of landscapes such as deserts, mountain range
 - **First-Person and Thrid-Person Mode**
   - Enables player to move across terrain using **WASD controls**.
   - Allows immersive exploration of generated worlds.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- [Unity 2021+](https://unity.com/download) (recommended: latest LTS version)
 
 ---
